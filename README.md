@@ -1,4 +1,4 @@
-# retos-backend
+# Bug-Hunt
 
 Monorepo con dos retos técnicos independientes que comparten un mismo algoritmo
 de rate limiting (token bucket).
