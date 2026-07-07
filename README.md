@@ -4,7 +4,6 @@ Monorepo con dos retos técnicos independientes que comparten un mismo algoritmo
 de rate limiting (token bucket).
 
 ```
-retos-backend/
 ├── shared/token_bucket/     # Única implementación del token bucket (reutilizada)
 ├── reto1-rate-limiter/      # Filtro stdin → stdout (ALLOW/DENY por línea)
 └── reto2-url-shortener/     # Servicio HTTP FastAPI + SQLite
