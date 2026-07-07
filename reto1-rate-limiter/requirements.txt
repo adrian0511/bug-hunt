@@ -1,0 +1,3 @@
+# El runtime no tiene dependencias de terceros (stdlib puro + shared/).
+# Esto sólo hace falta para correr la suite de tests.
+pytest>=8.0

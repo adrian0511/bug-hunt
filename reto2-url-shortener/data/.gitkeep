@@ -1,0 +1,2 @@
+# Mantiene el directorio data/ (donde vive el .db de SQLite) en control de versiones.
+# Los propios archivos .db están gitignoreados.

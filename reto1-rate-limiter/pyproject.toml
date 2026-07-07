@@ -1,0 +1,25 @@
+[project]
+name = "reto1-rate-limiter"
+version = "1.0.0"
+description = "Reto 1 · Token bucket rate limiter (stdin → stdout filter)"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+reto1-rate-limiter = "rate_limiter.cli:run"
+
+[tool.pytest.ini_options]
+# `..` hace importable la raíz del monorepo (para `shared.token_bucket`);
+# `src` hace importable el paquete `rate_limiter` de este reto.
+pythonpath = ["..", "src"]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Caches de test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Entornos
+.env
+
+# Datos de SQLite (Reto 2)
+reto2-url-shortener/data/*.db
+reto2-url-shortener/data/*.db-journal
+
+# Editor / SO
+.idea/
+.vscode/
+.DS_Store
